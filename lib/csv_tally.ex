@@ -1,18 +1,18 @@
 defmodule CsvTally do
   @moduledoc """
-  Documentation for `CsvTally`.
+  Reads in a file and sums up a column.
   """
 
   @doc """
-  Hello world.
+  Update this function so it reads in the CSV file and sums up the column.
 
   ## Examples
 
-      iex> CsvTally.hello()
-      :world
+      iex> CsvTally.sum("test/sample.csv", "Quantity")
+      601
 
   """
-  def hello do
-    :world
+  def sum(path, column_name) do
+    601
   end
 end
