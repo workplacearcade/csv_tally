@@ -1,21 +1,9 @@
-# CsvTally
+# CSVTally
 
-**TODO: Add description**
+**Sample pairing task for Elixir**
 
-## Installation
+## Goal
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `csv_tally` to your list of dependencies in `mix.exs`:
+Write a function to read in a CSV file and sum up the column with the given name.
 
-```elixir
-def deps do
-  [
-    {:csv_tally, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/csv_tally](https://hexdocs.pm/csv_tally).
-
+Use of `Stream` is encouraged.
